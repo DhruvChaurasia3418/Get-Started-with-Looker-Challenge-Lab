@@ -35,9 +35,11 @@
 
 ## copy the following code ::
 
-
 join: users_region {
     type: left_outer
     sql_on: ${events.user_id} = ${users_region.id};;
     relationship: many_to_one
-  }       
+  }  
+  
+  
+  
