@@ -33,7 +33,7 @@
           }
    
 
-## copy code
+
 
 join: users_region {
     type: left_outer
