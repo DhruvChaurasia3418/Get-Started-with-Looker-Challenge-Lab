@@ -1,4 +1,6 @@
-          view: users_region {
+## copy the following code     ::      
+         
+         view: users_region {
             derived_table: {
               sql: SELECT
                       id,
@@ -31,15 +33,7 @@
           }
    
 
-
-
-
-
-
-
-
-
-
+## copy the following code ::
 
 
 join: users_region {
